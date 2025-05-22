@@ -1,0 +1,22 @@
+[package]
+name = "imapprotolens"
+version = "0.16.6"
+edition = "2021"
+rust-version = "1.61"
+description = "Based on the modification of imap-proto, please use the official version"
+documentation = "https://docs.rs/imap-proto"
+keywords = ["imap"]
+categories = ["parser-implementations"]
+homepage = "https://github.com/chunhuitrue/imapprotolens"
+repository = "https://github.com/chunhuitrue/imapprotolens"
+license = "MIT/Apache-2.0"
+readme = "../README.md"
+
+[badges]
+maintenance = { status = "passively-maintained" }
+
+[dependencies]
+nom = "7"
+
+[dev-dependencies]
+assert_matches = "1.3"
