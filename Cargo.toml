@@ -10,7 +10,7 @@ categories = ["parser-implementations"]
 homepage = "https://github.com/chunhuitrue/imapprotolens"
 repository = "https://github.com/chunhuitrue/imapprotolens"
 license = "MIT/Apache-2.0"
-readme = "../README.md"
+readme = "README.md"
 
 [badges]
 maintenance = { status = "passively-maintained" }
